@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: url('https://metsul.com/wp-content/uploads/2019/09/D3EFDBA5-7307-4CE8-AB9B-E3FB8582AC75.jpeg-1.jpg') center/cover no-repeat;
+   
+}
+
+.cartao-temperatura {
+    width: 300px;
+    background-color: rgb(240, 240, 245);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+#lista-temperatura {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#tempo {
+    width: 60px;
+    aspect-ratio: 60 / 60;
+    height: 60px;
+}
+
+#titulo {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#center {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#condition,
+#sensation,
+#vento,
+#umidade {
+    text-align: center;
+}
+
+#condition img,
+#sensation img,
+#umidade img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#vento,
+#umidade {
+    border-radius: 8px;
+    border: solid lightgrey 0.5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#vento h3,
+#umidade h3 {
+    margin-bottom: 5px;
+}
+
+#vento p,
+#umidade p {
+    margin: 0;
+}
